@@ -16947,6 +16947,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vue-i18n@npm:8":
+  version: 8.27.2
+  resolution: "vue-i18n@npm:8.27.2"
+  checksum: 1a84ec3253b1c5a0b7742d31636ac46ac1c900968f20df859e80b6fbf4545d5e86ac37cfac0e3c5fc056b5c8600cb6f5cec9d455646250677996bc1df8e6a8d2
+  languageName: node
+  linkType: hard
+
 "vue-inbrowser-compiler-independent-utils@npm:^4.52.0":
   version: 4.52.0
   resolution: "vue-inbrowser-compiler-independent-utils@npm:4.52.0"
@@ -17014,6 +17021,7 @@ __metadata:
     eslint: ^6.7.2
     eslint-plugin-vue: ^6.2.2
     vue: ^2.6.11
+    vue-i18n: 8
     vue-loader: ^15.10.0
     vue-template-compiler: ^2.6.11
   languageName: unknown
