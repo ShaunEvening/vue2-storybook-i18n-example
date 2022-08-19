@@ -1,10 +1,14 @@
 import Vue from 'vue';
 import VueI18n from 'vue-i18n';
 import { i18nDecorator } from './i18n-decorator';
+import { createi18nConfiguration } from '../src/translations';
 
 Vue.use(VueI18n);
 
-export const decorators = [i18nDecorator];
+// VueI18n config must be created AFTER Vue.use(VueI18n);
+const i18n = createi18nConfiguration();
+
+export const decorators = [i18nDecorator(i18n)];
 
 export const globalTypes = {
   locale: {

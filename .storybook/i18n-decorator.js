@@ -1,8 +1,4 @@
-import { createi18nConfiguration } from "../src/translations";
-
-const i18n = createi18nConfiguration();
-
-export const i18nDecorator = (story, context) => {
+export const i18nDecorator = (i18n) => (story, context) => {
   i18n.locale = context.globals.locale;
 
   return ({
